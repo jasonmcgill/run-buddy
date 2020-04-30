@@ -1,7 +1,8 @@
-* {
+ * {
   margin: 0;
   padding:0;
-}
+  box-sizing: border-box;
+} 
 
 body {
       /* more on this crazy alphanumerical value in a minute! */
@@ -73,12 +74,6 @@ footer a {
     color: #024e76;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 section {
     padding: 60px;
 }
@@ -134,14 +129,14 @@ section {
 }
   /* Hero Style End */
 
-  .intro {
-      text-align: center;
+.intro {
+    text-align: center;
 }
 
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
-    widows: 80%;
+    width: 80%;
     font-size: 20px;
     margin: 0 auto;
 } 
@@ -160,15 +155,15 @@ section {
  }
       
 .primary-border {
-        border-color: #fce138;
+    border-color: #fce138;
 }
       
 .secondary-border {
-        border-color: #39a6b2;
+    border-color: #39a6b2;
 }
 
 .steps div{
-          margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .steps img {
@@ -276,3 +271,4 @@ section {
 .contact-info a {
     color: #fce138
 }
+
